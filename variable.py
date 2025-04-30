@@ -23,3 +23,8 @@ a=b=c=10
 print(c)
 print(a)
 print(a+c)
+
+#unpack a collection
+hello=["Mon","Tue","Wed"]
+x,y,z=hello
+print(y)
